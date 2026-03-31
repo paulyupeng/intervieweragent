@@ -1,0 +1,211 @@
+# Professional Skills Question Bank
+# Categories: technical_competency, problem_solving, domain_expertise, tool_proficiency
+
+metadata:
+  name: Professional Skills Assessment
+  version: "1.0"
+  language: en
+  estimated_duration_minutes: 15
+
+questions:
+  # Technical Competency - Role Agnostic
+  - id: PRO_TECH_001
+    text: "Can you describe the most technically challenging project you've worked on? What made it difficult and how did you approach it?"
+    type: technical_competency
+    expected_duration_seconds: 150
+    evaluation_focus:
+      - technical_competency
+      - problem_solving
+    scoring_criteria:
+      provides_specific_details: true
+      explains_technical_complexity: true
+      demonstrates_systematic_approach: true
+    followups:
+      - "What was your specific contribution to this project?"
+      - "What would you do differently if you started this project today?"
+
+  - id: PRO_TECH_002
+    text: "Tell me about a technical decision you made that had significant impact. How did you arrive at that decision?"
+    type: technical_competency
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - technical_competency
+      - decision_making
+    scoring_criteria:
+      describes_decision_framework: true
+      considers_trade_offs: true
+      reflects_on_outcome: true
+
+  - id: PRO_TECH_003
+    text: "What tools, technologies, or frameworks do you rely on most in your work? Why these specifically?"
+    type: tool_proficiency
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - tool_proficiency
+      - technical_judgment
+    scoring_criteria:
+      names_specific_tools: true
+      explains_reasoning: true
+      demonstrates_thoughtful_selection: true
+    followups:
+      - "What's a tool you used to rely on but have since moved away from?"
+      - "How do you decide when to adopt a new technology?"
+
+  # Problem Solving
+  - id: PRO_PRO_001
+    text: "Describe a situation where you encountered a problem that seemed unsolvable at first. How did you work through it?"
+    type: problem_solving
+    expected_duration_seconds: 150
+    evaluation_focus:
+      - problem_solving
+      - persistence
+    scoring_criteria:
+      describes_problem_clearly: true
+      outlines_step_by_step_approach: true
+      demonstrates_creative_thinking: true
+      shares_reflection: true
+    followups:
+      - "What resources or people did you turn to for help?"
+      - "What did you learn from this experience?"
+
+  - id: PRO_PRO_002
+    text: "Tell me about a time you had to solve a problem with incomplete information or unclear requirements. What did you do?"
+    type: problem_solving
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - problem_solving
+      - adaptability
+    scoring_criteria:
+      describes_how_clarity_was_achieved: true
+      shows_proactive_behavior: true
+      demonstrates_comfort_with_ambiguity: true
+
+  - id: PRO_PRO_003
+    text: "Imagine you're given a project with an aggressive deadline that you know is unrealistic. How would you handle this?"
+    type: problem_solving
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - problem_solving
+      - communication
+    scoring_criteria:
+      proposes_realistic_approach: true
+      considers_stakeholder_management: true
+      suggests_specific_actions: true
+
+  - id: PRO_PRO_004
+    text: "Walk me through your process for debugging a complex issue. Can you give a specific example?"
+    type: problem_solving
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - problem_solving
+      - systematic_thinking
+    scoring_criteria:
+      describes_methodical_approach: true
+      provides_specific_example: true
+      demonstrates_patience_and_rigor: true
+
+  # Domain Expertise
+  - id: PRO_DOM_001
+    text: "What's something in your field that most people don't understand but you think is really important?"
+    type: domain_expertise
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - domain_expertise
+      - communication
+    scoring_criteria:
+      demonstrates_deep_knowledge: true
+      explains_clearly: true
+      shows_passion_for_subject: true
+    followups:
+      - "How did you come to understand this?"
+      - "Why do you think more people don't get it?"
+
+  - id: PRO_DOM_002
+    text: "What's the most important lesson you've learned in your professional career so far?"
+    type: domain_expertise
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - domain_expertise
+      - reflection
+    scoring_criteria:
+      provides_meaningful_insight: true
+      demonstrates_growth: true
+      is_specific_not_cliche: true
+
+  - id: PRO_DOM_003
+    text: "How do you stay current with developments in your field? Can you share something recent you've learned?"
+    type: domain_expertise
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - domain_expertise
+      - continuous_learning
+    scoring_criteria:
+      names_specific_sources: true
+      demonstrates_active_learning: true
+      shares_recent_learning: true
+
+  # Best Practices and Quality
+  - id: PRO_QUA_001
+    text: "How do you define quality in your work? What practices do you follow to ensure high quality output?"
+    type: domain_expertise
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - domain_expertise
+      - ownership
+    scoring_criteria:
+      articulates_clear_standards: true
+      describes_specific_practices: true
+      demonstrates_ownership_mentality: true
+    followups:
+      - "Tell me about a time when you had to compromise on quality. How did you handle it?"
+
+  - id: PRO_QUA_002
+    text: "Describe your approach to documentation and knowledge sharing. Why do you think it's important?"
+    type: domain_expertise
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - domain_expertise
+      - teamwork
+    scoring_criteria:
+      values_knowledge_sharing: true
+      provides_specific_approach: true
+      considers_audience: true
+
+  # Scenario-Based Technical Questions
+  - id: PRO_SCE_001
+    text: "You discover a critical bug in production that's affecting customers. Walk me through what you do in the first hour."
+    type: problem_solving
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - problem_solving
+      - composure
+      - communication
+    scoring_criteria:
+      prioritizes_correctly: true
+      considers_communication: true
+      demonstrates_systematic_debugging: true
+
+  - id: PRO_SCE_002
+    text: "You're asked to review a colleague's work and you find significant issues. How do you approach the feedback conversation?"
+    type: domain_expertise
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - domain_expertise
+      - emotional_intelligence
+    scoring_criteria:
+      demonstrates_empathy: true
+      provides_constructive_approach: true
+      considers_relationship: true
+
+  # Closing
+  - id: PRO_CLOSE_001
+    text: "Is there a particular skill or area of expertise you're currently working on developing? What's your approach?"
+    type: closing
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - continuous_learning
+      - self_awareness
+    scoring_criteria:
+      demonstrates_self_awareness: true
+      describes_active_effort: true
+      shows_growth_mindset: true

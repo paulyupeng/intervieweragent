@@ -1,0 +1,164 @@
+# Industry Understanding Question Bank
+# Categories: market_knowledge, competitor_awareness, regulatory_knowledge, innovation_awareness
+
+metadata:
+  name: Industry Understanding Assessment
+  version: "1.0"
+  language: en
+  estimated_duration_minutes: 12
+
+questions:
+  # Market Knowledge
+  - id: IND_MKT_001
+    text: "What do you see as the major trends shaping our industry in the next 2-3 years?"
+    type: market_knowledge
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - market_knowledge
+      - forward_thinking
+    scoring_criteria:
+      min_trends_identified: 2
+      demonstrates_depth: true
+      includes_reasoning: true
+    followups:
+      - "How do you think these trends will affect companies like ours?"
+      - "Which of these trends do you think is most overrated?"
+
+  - id: IND_MKT_002
+    text: "How has the industry changed since you started working in it? What's different now?"
+    type: market_knowledge
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - market_knowledge
+      - historical_context
+    scoring_criteria:
+      identifies_specific_changes: true
+      provides_context: true
+
+  - id: IND_MKT_003
+    text: "What customer needs or pain points do you think are currently underserved in our market?"
+    type: market_knowledge
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - market_knowledge
+      - customer_empathy
+    scoring_criteria:
+      identifies_specific_gaps: true
+      demonstrates_customer_thinking: true
+
+  # Competitor Awareness
+  - id: IND_COMP_001
+    text: "Who do you consider to be the main competitors in this space, and what differentiates them?"
+    type: competitor_awareness
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - competitor_awareness
+      - strategic_thinking
+    scoring_criteria:
+      names_multiple_competitors: true
+      identifies_differentiators: true
+      shows_balanced_view: true
+    followups:
+      - "What competitor do you admire most and why?"
+      - "Where do you think most competitors are missing the mark?"
+
+  - id: IND_COMP_002
+    text: "Can you think of a company outside our industry that we could learn from? What do they do well?"
+    type: competitor_awareness
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - competitor_awareness
+      - cross_industry_thinking
+    scoring_criteria:
+      names_specific_company: true
+      articulates_learnings: true
+
+  # Regulatory Knowledge
+  - id: IND_REG_001
+    text: "What regulatory or compliance considerations are important in our industry right now?"
+    type: regulatory_knowledge
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - regulatory_knowledge
+      - risk_awareness
+    scoring_criteria:
+      identifies_specific_regulations: true
+      demonstrates_awareness: true
+    followups:
+      - "How do you see these regulations evolving?"
+      - "What impact do they have on innovation?"
+
+  - id: IND_REG_002
+    text: "How do you think about balancing innovation with compliance and risk management?"
+    type: regulatory_knowledge
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - regulatory_knowledge
+      - balanced_thinking
+    scoring_criteria:
+      acknowledges_both_sides: true
+      provides_practical_approach: true
+
+  # Innovation Awareness
+  - id: IND_INN_001
+    text: "What emerging technologies or innovations are you most excited about in our field?"
+    type: innovation_awareness
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - innovation_awareness
+      - enthusiasm
+    scoring_criteria:
+      names_specific_technologies: true
+      explains_relevance: true
+      demonstrates_curiosity: true
+    followups:
+      - "How have you personally kept up with new developments?"
+      - "What innovation do you think will have the biggest impact?"
+
+  - id: IND_INN_002
+    text: "Tell me about a time when you adopted or implemented a new technology or approach in your work. How did it go?"
+    type: innovation_awareness
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - innovation_awareness
+      - adaptability
+    scoring_criteria:
+      provides_specific_example: true
+      reflects_on_outcome: true
+      shows_learning_mindset: true
+
+  - id: IND_INN_003
+    text: "What's an example of a company that's doing something genuinely innovative in our space right now?"
+    type: innovation_awareness
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - innovation_awareness
+      - market_observation
+    scoring_criteria:
+      names_specific_company: true
+      articulates_what_makes_it_innovative: true
+
+  # Industry Challenges
+  - id: IND_CHA_001
+    text: "What do you think is the biggest challenge facing our industry today? How should companies address it?"
+    type: market_knowledge
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - market_knowledge
+      - problem_solving
+    scoring_criteria:
+      identifies_specific_challenge: true
+      proposes_solutions: true
+      demonstrates_critical_thinking: true
+
+  # Closing
+  - id: IND_CLOSE_001
+    text: "If you could change one thing about how our industry operates, what would it be and why?"
+    type: closing
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - market_knowledge
+      - visionary_thinking
+    scoring_criteria:
+      provides_thoughtful_answer: true
+      demonstrates_industry_passion: true

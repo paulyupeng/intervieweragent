@@ -1,0 +1,292 @@
+# Soft Skills Question Bank
+# Categories: communication, teamwork, leadership, adaptability, emotional_intelligence
+
+metadata:
+  name: Soft Skills Assessment
+  version: "1.0"
+  language: en
+  estimated_duration_minutes: 15
+
+questions:
+  # Communication
+  - id: SOF_COM_001
+    text: "Tell me about a time when you had to explain a complex idea to someone without technical background. How did you approach it?"
+    type: communication
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - communication
+      - empathy
+    scoring_criteria:
+      describes_adaptation_strategy: true
+      considers_audience: true
+      provides_outcome: true
+    followups:
+      - "How did you know they understood?"
+      - "What would you do differently now?"
+
+  - id: SOF_COM_002
+    text: "Describe a situation where you had to deliver difficult news or negative feedback. How did you handle it?"
+    type: communication
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - communication
+      - emotional_intelligence
+    scoring_criteria:
+      demonstrates_tact: true
+      shows_empathy: true
+      describes_specific_approach: true
+    followups:
+      - "How did the other person respond?"
+      - "What did you learn from this experience?"
+
+  - id: SOF_COM_003
+    text: "Can you share an example of when you had to persuade someone to see things your way? What was your approach?"
+    type: communication
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - communication
+      - influence
+    scoring_criteria:
+      describes_persuasion_strategy: true
+      considers_other_perspective: true
+      shares_outcome: true
+
+  # Teamwork
+  - id: SOF_TEA_001
+    text: "Tell me about a time you had to work closely with someone whose personality was very different from yours. How did you make it work?"
+    type: teamwork
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - teamwork
+      - adaptability
+    scoring_criteria:
+      demonstrates_self_awareness: true
+      shows_effort_to_collaborate: true
+      provides_positive_outcome: true
+    followups:
+      - "What did you learn about yourself from this experience?"
+      - "How has it influenced how you work with others since?"
+
+  - id: SOF_TEA_002
+    text: "Describe a situation where there was conflict within your team. What role did you play in resolving it?"
+    type: teamwork
+    expected_duration_seconds: 150
+    evaluation_focus:
+      - teamwork
+      - conflict_resolution
+    scoring_criteria:
+      describes_situation_objectively: true
+      shows_constructive_role: true
+      demonstrates_mediation_skills: true
+      shares_learning: true
+    followups:
+      - "What would you do differently if faced with the same situation?"
+      - "How did the team dynamic change afterward?"
+
+  - id: SOF_TEA_003
+    text: "Give me an example of a time when you had to rely on teammates to get something done. How did you ensure everyone contributed?"
+    type: teamwork
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - teamwork
+      - accountability
+    scoring_criteria:
+      describes_collaboration_approach: true
+      shows_leadership_without_authority: true
+      provides_specific_actions: true
+
+  - id: SOF_TEA_004
+    text: "Tell me about a time when a team member wasn't pulling their weight. How did you address it?"
+    type: teamwork
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - teamwork
+      - difficult_conversations
+    scoring_criteria:
+      demonstrates_empathy: true
+      shows_direct_but_kind_approach: true
+      considers_root_causes: true
+
+  # Leadership
+  - id: SOF_LEA_001
+    text: "Describe a time when you had to step up as a leader, even if it wasn't formally your role. What did you do?"
+    type: leadership
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - leadership
+      - initiative
+    scoring_criteria:
+      demonstrates_initiative: true
+      shows_influence_without_authority: true
+      provides_specific_actions: true
+      shares_outcome: true
+    followups:
+      - "How did others respond to your leadership?"
+      - "What did this teach you about leadership?"
+
+  - id: SOF_LEA_002
+    text: "Tell me about a time you had to make a difficult decision with limited information. How did you approach it?"
+    type: leadership
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - leadership
+      - decision_making
+    scoring_criteria:
+      describes_decision_framework: true
+      shows_comfort_with_ambiguity: true
+      demonstrates_accountability: true
+
+  - id: SOF_LEA_003
+    text: "Can you share an example of when you mentored or helped someone else grow? What was your approach?"
+    type: leadership
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - leadership
+      - people_development
+    scoring_criteria:
+      demonstrates_patience: true
+      shows_investment_in_others: true
+      provides_specific_approach: true
+      shares_outcome: true
+
+  - id: SOF_LEA_004
+    text: "Tell me about a time you had to rally a team around a goal that wasn't initially exciting to them. How did you motivate them?"
+    type: leadership
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - leadership
+      - motivation
+    scoring_criteria:
+      demonstrates_understanding_of_motivation: true
+      shows_creative_approach: true
+      provides_specific_actions: true
+
+  # Adaptability
+  - id: SOF_ADA_001
+    text: "Tell me about a time when priorities shifted dramatically at work. How did you adapt?"
+    type: adaptability
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - adaptability
+      - composure
+    scoring_criteria:
+      demonstrates_flexibility: true
+      shows_positive_attitude: true
+      describes_specific_adaptations: true
+    followups:
+      - "How did you help others adapt to the change?"
+      - "What did you learn about handling change?"
+
+  - id: SOF_ADA_002
+    text: "Describe a situation where you had to learn something new quickly to complete a task. What was your approach?"
+    type: adaptability
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - adaptability
+      - learning_agility
+    scoring_criteria:
+      describes_learning_strategy: true
+      shows_resourcefulness: true
+      provides_successful_outcome: true
+
+  - id: SOF_ADA_003
+    text: "Tell me about a time when a project you were working on was cancelled or significantly changed. How did you respond?"
+    type: adaptability
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - adaptability
+      - resilience
+    scoring_criteria:
+      demonstrates_emotional_regulation: true
+      shows_forward_thinking: true
+      avoids_complaining: true
+
+  - id: SOF_ADA_004
+    text: "Give me an example of when you received unexpected critical feedback. How did you handle it?"
+    type: adaptability
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - adaptability
+      - growth_mindset
+    scoring_criteria:
+      demonstrates_openness: true
+      shows_reflection: true
+      describes_action_taken: true
+
+  # Emotional Intelligence
+  - id: SOF_EMO_001
+    text: "Tell me about a time when you recognized a colleague was struggling and reached out to help. What did you do?"
+    type: emotional_intelligence
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - emotional_intelligence
+      - empathy
+    scoring_criteria:
+      demonstrates_observation_skills: true
+      shows_empathy: true
+      describes_thoughtful_action: true
+    followups:
+      - "How did they respond?"
+      - "What did this teach you about supporting others?"
+
+  - id: SOF_EMO_002
+    text: "Describe a situation where you made a mistake at work. How did you handle it?"
+    type: emotional_intelligence
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - emotional_intelligence
+      - accountability
+    scoring_criteria:
+      demonstrates_ownership: true
+      shows_no_deflection: true
+      describes_corrective_action: true
+      shares_learning: true
+
+  - id: SOF_EMO_003
+    text: "Tell me about a time when you were under significant stress at work. How did you manage it?"
+    type: emotional_intelligence
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - emotional_intelligence
+      - self_regulation
+    scoring_criteria:
+      demonstrates_self_awareness: true
+      shows_healthy_coping: true
+      provides_specific_strategies: true
+
+  - id: SOF_EMO_004
+    text: "Can you think of a time when you disagreed with your manager's decision? How did you handle it?"
+    type: emotional_intelligence
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - emotional_intelligence
+      - professional_boundaries
+    scoring_criteria:
+      demonstrates_respect: true
+      shows_appropriate_channel: true
+      provides_constructive_approach: true
+
+  # Closing
+  - id: SOF_CLOSE_001
+    text: "If your colleagues were asked to describe your working style in three words, what would they say? And what would they say could be improved?"
+    type: closing
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - self_awareness
+      - honesty
+    scoring_criteria:
+      demonstrates_self_awareness: true
+      shows_authenticity: true
+      acknowledges_areas_for_growth: true
+
+  - id: SOF_CLOSE_002
+    text: "What kind of work environment brings out the best in you? And what environment makes it harder for you to thrive?"
+    type: closing
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - self_awareness
+      - honesty
+    scoring_criteria:
+      demonstrates_self_knowledge: true
+      is_specific_not_generic: true
+      shows_reflection: true

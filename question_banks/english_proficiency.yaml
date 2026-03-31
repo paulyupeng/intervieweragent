@@ -1,0 +1,167 @@
+# English Proficiency Question Bank
+# Categories: fluency, vocabulary, grammar, comprehension, pronunciation
+
+metadata:
+  name: English Proficiency Assessment
+  version: "1.0"
+  language: en
+  estimated_duration_minutes: 15
+
+questions:
+  # Opening Questions - Warm up + Initial Assessment
+  - id: ENG_OPEN_001
+    text: "Good morning! To start, could you tell me a little about yourself and your background?"
+    type: opening
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - fluency
+      - vocabulary
+      - grammar
+    followups:
+      - "What aspect of your work do you enjoy the most?"
+      - "How has your career evolved over the years?"
+
+  - id: ENG_OPEN_002
+    text: "Can you walk me through your current role and main responsibilities?"
+    type: opening
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - fluency
+      - vocabulary
+    followups:
+      - "What's the most challenging part of your role?"
+      - "How do you prioritize your tasks?"
+
+  # Fluency Focus Questions
+  - id: ENG_FLU_001
+    text: "Describe a typical day at work. What do you usually do from morning to evening?"
+    type: fluency
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - fluency
+      - vocabulary
+    scoring_criteria:
+      min_word_count: 80
+      max_pauses: 10
+      target_speaking_rate: "100-130 wpm"
+
+  - id: ENG_FLU_002
+    text: "Tell me about a recent project you worked on. What was your role and what was the outcome?"
+    type: fluency
+    expected_duration_seconds: 150
+    evaluation_focus:
+      - fluency
+      - vocabulary
+      - grammar
+    scoring_criteria:
+      min_word_count: 100
+      should_include:
+        - project_context
+        - personal_role
+        - outcome_result
+
+  # Vocabulary Focus Questions
+  - id: ENG_VOC_001
+    text: "How would you explain your job to someone who is not familiar with your industry?"
+    type: vocabulary
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - vocabulary
+      - comprehension
+    scoring_criteria:
+      should_avoid_jargon: true
+      should_use_analogies: true
+      lexical_diversity_threshold: 0.6
+
+  - id: ENG_VOC_002
+    text: "What are some key trends or changes happening in your field right now?"
+    type: vocabulary
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - vocabulary
+      - industry_knowledge
+    scoring_criteria:
+      min_industry_terms: 3
+      should_demonstrate_awareness: true
+
+  # Grammar Focus Questions
+  - id: ENG_GRA_001
+    text: "Tell me about a time when you had to deal with a difficult situation at work. What happened and how did you handle it?"
+    type: grammar
+    expected_duration_seconds: 150
+    evaluation_focus:
+      - grammar
+      - fluency
+    scoring_criteria:
+      correct_tense_usage: true
+      complex_sentence_structures: true
+      error_threshold: 3
+
+  - id: ENG_GRA_002
+    text: "What goals have you achieved in the past year, and what are you working towards next?"
+    type: grammar
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - grammar
+      - vocabulary
+    scoring_criteria:
+      correct_past_present_future_tenses: true
+      error_threshold: 2
+
+  # Comprehension Focus Questions
+  - id: ENG_COM_001
+    text: "If you could redesign one aspect of your current team's workflow, what would it be and why?"
+    type: comprehension
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - comprehension
+      - vocabulary
+    scoring_criteria:
+      relevance_to_question: 0.7
+      demonstrates_understanding: true
+
+  - id: ENG_COM_002
+    text: "Some people prefer working independently, others prefer teams. What's your view on this, and can you give examples from your experience?"
+    type: comprehension
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - comprehension
+      - fluency
+    scoring_criteria:
+      addresses_both_sides: true
+      provides_examples: true
+
+  # Scenario-Based Questions (Combined Assessment)
+  - id: ENG_SCE_001
+    text: "Imagine you need to explain a complex technical issue to a client who doesn't have a technical background. How would you approach this conversation?"
+    type: scenario
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - vocabulary
+      - comprehension
+      - communication
+    scoring_criteria:
+      uses_simple_language: true
+      provides_structure: true
+      includes_examples: true
+
+  - id: ENG_SCE_002
+    text: "You're leading a project and a team member consistently misses deadlines. How would you address this situation?"
+    type: scenario
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - fluency
+      - vocabulary
+      - soft_skills
+    scoring_criteria:
+      demonstrates_diplomacy: true
+      proposes_actionable_steps: true
+
+  # Closing Questions
+  - id: ENG_CLOSE_001
+    text: "Is there anything else you'd like to share about your English communication skills or any questions you have for me?"
+    type: closing
+    expected_duration_seconds: 60
+    evaluation_focus:
+      - fluency
+      - comprehension

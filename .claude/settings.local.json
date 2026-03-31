@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.scitepress.org)",
+      "WebFetch(domain:vapi.ai)",
+      "WebFetch(domain:www.geekwire.com)",
+      "WebFetch(domain:arxiv.org)",
+      "Bash(powershell -Command \"Compress-Archive -Path 'backend','frontend','question_banks','database','.env.example','docker-compose.yml','README.md','QUICKSTART.md','.gitignore','start.bat','start.sh','export.bat','export.sh' -DestinationPath 'exports\\\\interviewer-agent-export.zip' -Force\")",
+      "Bash(powershell -Command \"Compress-Archive -Path ''backend'',''frontend'',''question_banks'',''database'',''.env.example'',''docker-compose.yml'',''README.md'',''QUICKSTART.md'',''.gitignore'',''start.bat'',''start.sh'',''export.bat'',''export.sh'' -DestinationPath ''exports\\\\interviewer-agent-export.zip'' -Force\")",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

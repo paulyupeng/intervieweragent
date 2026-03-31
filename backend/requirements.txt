@@ -1,0 +1,37 @@
+# FastAPI and Core
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Database
+asyncpg==0.29.0
+sqlalchemy==2.0.25
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.1.2
+
+# HTTP Client
+httpx==0.26.0
+
+# WebSocket
+websockets==12.0
+
+# YAML for question banks
+pyyaml==6.0.1
+
+# Redis for session management
+redis==5.0.1
+
+# JWT
+PyJWT==2.8.0
+
+# Resume Parsing (optional - for PDF/DOCX support)
+pypdf==3.17.4
+python-docx==1.1.0
+
+# Audio processing (optional)
+pydub==0.25.1

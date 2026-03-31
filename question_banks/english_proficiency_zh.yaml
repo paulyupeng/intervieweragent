@@ -1,0 +1,109 @@
+# 英语能力评估题库 (English Proficiency - Chinese Version)
+# 用于中文候选人的英语面试
+
+metadata:
+  name: 英语能力评估 (English Proficiency Assessment)
+  version: "1.0"
+  language: zh
+  target_language: en
+  estimated_duration_minutes: 15
+  note: "这些问题用中文提问，但候选人应该用英文回答，以评估其英语能力"
+
+questions:
+  # 开场问题
+  - id: ENG_CN_OPEN_001
+    text_zh: "早上好！首先，能否请您介绍一下自己和您的背景？请用英文回答。"
+    text_en: "Good morning! To start, could you tell me a little about yourself and your background?"
+    type: opening
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - fluency
+      - vocabulary
+      - grammar
+
+  - id: ENG_CN_OPEN_002
+    text_zh: "能否请您 walkthrough 一下您当前的职位和主要职责？请用英文描述。"
+    text_en: "Can you walk me through your current role and main responsibilities?"
+    type: opening
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - fluency
+      - vocabulary
+
+  # 流利度问题
+  - id: ENG_CN_FLU_001
+    text_zh: "请描述一下您典型的一天工作情况。从早到晚您通常会做什么？请用英文回答。"
+    text_en: "Describe a typical day at work. What do you usually do from morning to evening?"
+    type: fluency
+    expected_duration_seconds: 120
+    evaluation_focus:
+      - fluency
+      - vocabulary
+
+  - id: ENG_CN_FLU_002
+    text_zh: "请告诉我您最近参与的一个项目。您的角色是什么？结果如何？"
+    text_en: "Tell me about a recent project you worked on. What was your role and what was the outcome?"
+    type: fluency
+    expected_duration_seconds: 150
+
+  # 词汇量问题
+  - id: ENG_CN_VOC_001
+    text_zh: "如果让您向一个不了解您行业的人解释您的工作，您会怎么说？"
+    text_en: "How would you explain your job to someone who is not familiar with your industry?"
+    type: vocabulary
+    expected_duration_seconds: 90
+    evaluation_focus:
+      - vocabulary
+      - comprehension
+
+  - id: ENG_CN_VOC_002
+    text_zh: "您认为目前您的行业有哪些主要趋势或变化？"
+    text_en: "What are some key trends or changes happening in your field right now?"
+    type: vocabulary
+    expected_duration_seconds: 120
+
+  # 语法问题
+  - id: ENG_CN_GRA_001
+    text_zh: "请告诉我一次您在工作中遇到困难情况的经历。发生了什么？您是如何处理的？"
+    text_en: "Tell me about a time when you had to deal with a difficult situation at work. What happened and how did you handle it?"
+    type: grammar
+    expected_duration_seconds: 150
+
+  - id: ENG_CN_GRA_002
+    text_zh: "过去一年您取得了哪些目标？接下来您在努力的方向是什么？"
+    text_en: "What goals have you achieved in the past year, and what are you working towards next?"
+    type: grammar
+    expected_duration_seconds: 90
+
+  # 理解能力问题
+  - id: ENG_CN_COM_001
+    text_zh: "如果您可以重新设计您当前团队工作流程中的一个方面，会是什么？为什么？"
+    text_en: "If you could redesign one aspect of your current team's workflow, what would it be and why?"
+    type: comprehension
+    expected_duration_seconds: 120
+
+  - id: ENG_CN_COM_002
+    text_zh: "有些人喜欢独立工作，有些人喜欢团队合作。您怎么看？能否举例说明？"
+    text_en: "Some people prefer working independently, others prefer teams. What's your view on this, and can you give examples from your experience?"
+    type: comprehension
+    expected_duration_seconds: 120
+
+  # 场景问题
+  - id: ENG_CN_SCE_001
+    text_zh: "想象一下，您需要向一个没有技术背景的客户解释一个复杂的技术问题。您会如何进行这次对话？"
+    text_en: "Imagine you need to explain a complex technical issue to a client who doesn't have a technical background. How would you approach this conversation?"
+    type: scenario
+    expected_duration_seconds: 120
+
+  - id: ENG_CN_SCE_002
+    text_zh: "您正在负责一个项目，有一位团队成员 consistently 错过截止日期。您会如何处理这种情况？"
+    text_en: "You're leading a project and a team member consistently misses deadlines. How would you address this situation?"
+    type: scenario
+    expected_duration_seconds: 120
+
+  # 结束问题
+  - id: ENG_CN_CLOSE_001
+    text_zh: "关于您的英语沟通能力，您还有什么想分享的吗？或者您有什么问题想问我的？"
+    text_en: "Is there anything else you'd like to share about your English communication skills or any questions you have for me?"
+    type: closing
+    expected_duration_seconds: 60
