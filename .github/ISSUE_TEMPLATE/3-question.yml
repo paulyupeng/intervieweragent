@@ -1,0 +1,35 @@
+name: General Question
+description: 咨询或讨论问题
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        有问题或想法讨论？欢迎留言！
+
+  - type: input
+    id: contact
+    attributes:
+      label: 联系方式
+      description: 可选
+      placeholder: your.email@example.com
+    validations:
+      required: false
+
+  - type: textarea
+    id: question
+    attributes:
+      label: 问题/讨论内容
+      description: 请详细描述你的问题或想法
+      placeholder: 我想了解一下...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 确认事项
+      options:
+        - label: 我已阅读文档，但未找到答案
+          required: true

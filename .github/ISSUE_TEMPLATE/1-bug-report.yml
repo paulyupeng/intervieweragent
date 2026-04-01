@@ -1,0 +1,102 @@
+name: Bug Report
+description: 报告一个 Bug
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你花时间报告问题！请尽可能详细地描述问题，以便我们快速定位和修复。
+
+  - type: input
+    id: contact
+    attributes:
+      label: 联系方式
+      description: 可选，方便我们进一步沟通
+      placeholder: your.email@example.com
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 简要描述你遇到的问题
+      placeholder: 点击面试按钮后页面崩溃...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤
+      description: 详细描述如何复现这个问题
+      placeholder: |
+        1. 启动服务 (docker-compose up -d)
+        2. 访问 http://localhost:3000
+        3. 点击 "Start Interview"
+        4. 选择候选人
+        5. 出现错误
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+      description: 应该发生什么？
+      placeholder: 应该正常跳转到面试房间页面
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: 操作系统
+      description: 你使用的操作系统
+      placeholder: Windows 11 / macOS 14 / Ubuntu 22.04
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器
+      description: 你使用的浏览器（如适用）
+      placeholder: Chrome 122 / Firefox 123 / Safari 17
+    validations:
+      required: false
+
+  - type: textarea
+    id: version
+    attributes:
+      label: 版本信息
+      description: 项目版本（commit hash 或 tag）
+      placeholder: |
+        - Frontend: v1.0.0
+        - Backend: v1.0.0
+        - Docker: latest
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志/截图
+      description: 请粘贴相关日志或上传截图
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: 确认事项
+      description: 提交前请确认
+      options:
+        - label: 我已搜索现有 Issue，确认这不是重复的问题
+          required: true
+        - label: 我已确认问题在最新版本中存在
+          required: true
+        - label: 我愿意协助修复此问题（可选）
+          required: false

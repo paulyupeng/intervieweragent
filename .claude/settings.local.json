@@ -10,7 +10,21 @@
       "Bash(powershell -Command \"Compress-Archive -Path ''backend'',''frontend'',''question_banks'',''database'',''.env.example'',''docker-compose.yml'',''README.md'',''QUICKSTART.md'',''.gitignore'',''start.bat'',''start.sh'',''export.bat'',''export.sh'' -DestinationPath ''exports\\\\interviewer-agent-export.zip'' -Force\")",
       "Bash(git init:*)",
       "Bash(git config:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(where gh:*)",
+      "Bash(winget install:*)",
+      "Bash(refreshenv)",
+      "Bash(gh --version)",
+      "Bash(\"$env:ProgramFiles\\\\GitHub CLI\\\\gh.exe\" --version)",
+      "Bash(C:WindowsSystem32where.exe gh:*)",
+      "Bash(pwsh -Command \"gh --version\")",
+      "Read(//c/Program Files/GitHub CLI//**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)",
+      "Bash(git push:*)"
     ]
   }
 }
